@@ -1,0 +1,32 @@
+#container{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+#container #inputnum{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+}
+#container button{
+    margin: 25px;
+    padding: 20px;
+    border:none;
+    background-color: hsl(182, 100%, 50%);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+#container button:hover{
+    background-color: hsl(182, 100%, 65%);
+}
+#container button:active{
+    background-color: hsl(182, 100%, 75%);
+}
+
+#numberDisplayer{
+    margin:15px;
+}
+
